@@ -7,7 +7,7 @@ export const siteConfig = {
   name: "TradeSaurs",
   title: "TradeSaurs — Resource Belajar Trading",
   description:
-    "Kumpulan resource belajar ICT, SMC, dan Traders Family dalam Bahasa Indonesia dengan tampilan neobrutalism yang rapi untuk dipelajari.",
+    "Kumpulan resource belajar trading dari berbagai metode dalam Bahasa Indonesia.",
   url: siteUrl,
   creator: "@hadespwnme",
   ogAlt:
