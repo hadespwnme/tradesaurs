@@ -1,15 +1,43 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ChevronLeft } from "lucide-react";
 import { getIctArticles, getIctBySlug } from "@/lib/data";
 import { ArticleContent } from "@/components/article-content";
 import { NeoBadge } from "@/components/neo-card";
 import { PdfList } from "@/components/pdf-list";
+import { createMetadata } from "@/lib/metadata";
 
 export async function generateStaticParams() {
   const all = await getIctArticles();
   return all.map((a) => ({ slug: a.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const data = await getIctBySlug(slug);
+
+  if (!data) {
+    return createMetadata({
+      title: "Artikel ICT | TradeSaurs",
+      description:
+        "Ringkasan artikel ICT berbahasa Indonesia untuk membantu belajar struktur market, liquidity, dan order flow.",
+      path: `/ict/${slug}`,
+    });
+  }
+
+  const description = `Ringkasan ICT dalam Bahasa Indonesia untuk topik ${data.raw.title}. Fokus pada konsep market structure, liquidity, dan entry model.`;
+
+  return createMetadata({
+    title: `${data.raw.title} | TradeSaurs`,
+    description,
+    path: `/ict/${slug}`,
+  });
 }
 
 export default async function IctDetailPage({

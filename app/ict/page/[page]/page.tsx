@@ -1,16 +1,34 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, FileDown } from "lucide-react";
 import { getIctByPage } from "@/lib/data";
 import { Pagination } from "@/components/pagination";
 import { NeoCard, NeoBadge } from "@/components/neo-card";
+import { createMetadata } from "@/lib/metadata";
 
 export async function generateStaticParams() {
   const { totalPages } = await getIctByPage(1);
   return Array.from({ length: totalPages }, (_, i) => ({
     page: String(i + 1),
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ page: string }>;
+}): Promise<Metadata> {
+  const { page: pageStr } = await params;
+  const page = Number.parseInt(pageStr, 10);
+
+  return createMetadata({
+    title: `ICT Page ${page} | TradeSaurs`,
+    description:
+      "Kumpulan artikel ICT berbahasa Indonesia tentang liquidity, order block, fair value gap, market structure, dan konsep turunannya.",
+    path: `/ict/page/${page}`,
+  });
 }
 
 export default async function IctListingPage({

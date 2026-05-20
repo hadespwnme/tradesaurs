@@ -3,6 +3,7 @@ import { Space_Grotesk, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider, THEME_INIT_SCRIPT } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
+import { createMetadata, siteConfig } from "@/lib/metadata";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space",
@@ -18,9 +19,8 @@ const pressStart = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "TradeSaurs — Resource Belajar Trading",
-  description:
-    "Kumpulan resource belajar ICT (Inner Circle Trader) dan Smart Money Concepts dalam Bahasa Indonesia. Gaya neobrutalism, dibuat oleh hadespwnme.",
+  metadataBase: new URL(siteConfig.url),
+  ...createMetadata(),
 };
 
 export default function RootLayout({

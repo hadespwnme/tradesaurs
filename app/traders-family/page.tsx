@@ -3,12 +3,14 @@ import type { Metadata } from "next";
 import { ChevronLeft } from "lucide-react";
 import { NeoBadge } from "@/components/neo-card";
 import { TradersFamilyCourse } from "@/components/traders-family-course";
+import { createMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = createMetadata({
   title: "Traders Family | TradeSaurs",
   description:
     "Playlist video Traders Family untuk belajar metode trading Johnpaul77 secara bertahap tanpa loncat sesi.",
-};
+  path: "/traders-family",
+});
 
 export default function TradersFamilyPage() {
   return (

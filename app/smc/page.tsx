@@ -1,10 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ChevronLeft } from "lucide-react";
 import { getSmc } from "@/lib/data";
 import { ArticleContent } from "@/components/article-content";
 import { NeoBadge } from "@/components/neo-card";
 import { PdfList } from "@/components/pdf-list";
+import { createMetadata } from "@/lib/metadata";
+
+export const metadata: Metadata = createMetadata({
+  title: "SMC | TradeSaurs",
+  description:
+    "Ringkasan Smart Money Concepts dalam Bahasa Indonesia: market structure, liquidity, BOS, CHoCH, fair value gap, dan order block.",
+  path: "/smc",
+});
 
 export default async function SmcPage() {
   const { raw, summary } = await getSmc();
