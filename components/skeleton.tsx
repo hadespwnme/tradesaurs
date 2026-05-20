@@ -8,9 +8,11 @@ export function Skeleton({
   return (
     <div
       className={cn(
-        "animate-pulse rounded-[10px] border-2 border-border bg-muted",
+        "motion-safe:animate-pulse motion-reduce:animate-none rounded-[10px] border-2 border-border bg-muted",
         className,
       )}
+      aria-hidden="true"
+      data-slot="skeleton"
       {...props}
     />
   );

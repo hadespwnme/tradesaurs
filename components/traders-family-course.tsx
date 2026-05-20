@@ -16,6 +16,7 @@ import {
   tradersFamilyModules,
   tradersFamilySessionEntries,
 } from "@/lib/traders-family";
+import { TradersFamilyCourseSkeleton } from "@/components/page-skeletons";
 
 const STORAGE_KEY = "tradesaur:traders-family-progress";
 const sessionById = new Map(
@@ -128,6 +129,10 @@ export function TradersFamilyCourse() {
   const nextSession = isLastSessionInModule
     ? tradersFamilySessionEntries[currentIndex + 1]
     : tradersFamilySessionEntries[currentIndex + 1];
+
+  if (!isHydrated) {
+    return <TradersFamilyCourseSkeleton />;
+  }
 
   function handleSelectSession(index: number) {
     const session = tradersFamilySessionEntries[index];
