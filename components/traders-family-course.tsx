@@ -279,7 +279,7 @@ export function TradersFamilyCourse() {
                       {module.title}
                     </h3>
                     <p className="mt-2 text-xs font-bold text-muted-foreground">
-                      {availableSessions}/{module.sessions.length} sesi bisa diklik
+                      {availableSessions}/{module.sessions.length}
                     </p>
                   </div>
                   <ChevronDown
