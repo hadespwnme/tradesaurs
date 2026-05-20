@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local-only repo files
+AGENTS.md
+CLAUDE.md
+/.claude/
+/.venv/
+/scripts/
+
+# temporary local assets
+.tmp-traders-family-logo.png
+.tmp-*
+*.tmp

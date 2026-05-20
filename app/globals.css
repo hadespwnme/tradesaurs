@@ -1,26 +1,117 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4f1ff;
+  --foreground: #0b0b15;
+  --main: #7c5cff;
+  --main-foreground: #ffffff;
+  --secondary: #4f7cff;
+  --success: #00bf63;
+  --success-foreground: #052814;
+  --accent: #b5a3ff;
+  --card: #ffffff;
+  --card-foreground: #0b0b15;
+  --muted: #e9e5ff;
+  --muted-foreground: #4b4769;
+  --border: #0b0b15;
+  --ring: #7c5cff;
+  --shadow-offset-x: 4px;
+  --shadow-offset-y: 4px;
+  --shadow-color: #0b0b15;
+  --radius-base: 10px;
+}
+
+.dark {
+  --background: #0d0b1f;
+  --foreground: #f6f3ff;
+  --main: #9a7bff;
+  --main-foreground: #0b0b15;
+  --secondary: #6b8dff;
+  --success: #00d06b;
+  --success-foreground: #03190d;
+  --accent: #4d3aa8;
+  --card: #16132e;
+  --card-foreground: #f6f3ff;
+  --muted: #1e1b3d;
+  --muted-foreground: #b8b3d8;
+  --border: #f6f3ff;
+  --ring: #9a7bff;
+  --shadow-color: #f6f3ff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-main: var(--main);
+  --color-main-foreground: var(--main-foreground);
+  --color-secondary: var(--secondary);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-accent: var(--accent);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-space);
+  --font-pixel: var(--font-pixel);
+  --font-display: var(--font-space);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), system-ui, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .neo-shadow {
+    box-shadow: var(--shadow-offset-x) var(--shadow-offset-y) 0 0
+      var(--shadow-color);
+  }
+  .neo-shadow-lg {
+    box-shadow: 6px 6px 0 0 var(--shadow-color);
+  }
+  .neo-shadow-sm {
+    box-shadow: 2px 2px 0 0 var(--shadow-color);
+  }
+  .neo-press {
+    transition: transform 120ms ease, box-shadow 120ms ease;
+  }
+  .neo-press:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 0 var(--shadow-color);
+  }
+  .neo-press:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 0 var(--shadow-color);
+  }
+  .neo-border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--border);
+  }
+  .scanline {
+    background-image: repeating-linear-gradient(
+      0deg,
+      transparent 0,
+      transparent 3px,
+      rgba(11, 11, 21, 0.04) 3px,
+      rgba(11, 11, 21, 0.04) 4px
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .neo-press {
+    transition: none !important;
+  }
 }

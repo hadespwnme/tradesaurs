@@ -1,0 +1,626 @@
+{
+  "title": "Smart Money Concepts",
+  "url": "https://dailypriceaction.com/blog/smart-money-concepts/",
+  "hero": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/uptrend-downtrend-consolidation-799x.png",
+  "structure": {
+    "headings": [
+      {
+        "level": 2,
+        "text": "What Are Smart Money Concepts (SMC)?"
+      },
+      {
+        "level": 2,
+        "text": "Why Smart Money Concepts Matter"
+      },
+      {
+        "level": 2,
+        "text": "Market Structure"
+      },
+      {
+        "level": 2,
+        "text": "Break of Structure (BOS)"
+      },
+      {
+        "level": 2,
+        "text": "Change of Character (CHoCH)"
+      },
+      {
+        "level": 2,
+        "text": "Internal vs External Structure"
+      },
+      {
+        "level": 2,
+        "text": "Liquidity"
+      },
+      {
+        "level": 2,
+        "text": "Equal Highs and Equal Lows"
+      },
+      {
+        "level": 2,
+        "text": "Liquidity Sweeps (Grabs)"
+      },
+      {
+        "level": 2,
+        "text": "Fair Value Gaps (FVGs)"
+      },
+      {
+        "level": 2,
+        "text": "Order Blocks"
+      },
+      {
+        "level": 2,
+        "text": "Breaker Blocks"
+      },
+      {
+        "level": 2,
+        "text": "Imbalances and Voids"
+      },
+      {
+        "level": 2,
+        "text": "Price Rebalancing"
+      },
+      {
+        "level": 2,
+        "text": "Premium and Discount Zones"
+      },
+      {
+        "level": 2,
+        "text": "Optimal Trade Entry (OTE)"
+      },
+      {
+        "level": 2,
+        "text": "Supply and Demand Zones"
+      },
+      {
+        "level": 2,
+        "text": "Displacement"
+      },
+      {
+        "level": 2,
+        "text": "Propulsion Blocks"
+      },
+      {
+        "level": 2,
+        "text": "Change in State of Delivery"
+      },
+      {
+        "level": 2,
+        "text": "Balanced Price Range"
+      },
+      {
+        "level": 2,
+        "text": "Breakaway Gaps"
+      },
+      {
+        "level": 2,
+        "text": "SMT Divergences"
+      },
+      {
+        "level": 2,
+        "text": "SMC Entry Models"
+      },
+      {
+        "level": 2,
+        "text": "SMC Trading Strategies"
+      },
+      {
+        "level": 2,
+        "text": "London Session Behavior"
+      },
+      {
+        "level": 2,
+        "text": "New York Session Behavior"
+      },
+      {
+        "level": 2,
+        "text": "Power of Three"
+      },
+      {
+        "level": 2,
+        "text": "Stop Placement Using SMC"
+      },
+      {
+        "level": 2,
+        "text": "Liquidity-Based Take Profits"
+      },
+      {
+        "level": 2,
+        "text": "Confirmation vs Anticipation Entries"
+      },
+      {
+        "level": 2,
+        "text": "How to Backtest SMC"
+      },
+      {
+        "level": 2,
+        "text": "Common SMC Mistakes"
+      },
+      {
+        "level": 3,
+        "text": "Trying to learn everything at once"
+      },
+      {
+        "level": 3,
+        "text": "Marking every fair value gap or order block on the chart"
+      },
+      {
+        "level": 3,
+        "text": "Ignoring higher timeframes"
+      },
+      {
+        "level": 3,
+        "text": "Trading every BOS or CHoCH like it is a setup"
+      },
+      {
+        "level": 3,
+        "text": "Entering too early during a liquidity sweep"
+      },
+      {
+        "level": 3,
+        "text": "Ignoring market sentiment or news events"
+      },
+      {
+        "level": 3,
+        "text": "Forcing SMC onto sideways markets"
+      },
+      {
+        "level": 3,
+        "text": "Not having a risk management plan"
+      },
+      {
+        "level": 3,
+        "text": "Overconfidence after a few wins"
+      },
+      {
+        "level": 2,
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "level": 3,
+        "text": "What is smart money concepts?"
+      },
+      {
+        "level": 3,
+        "text": "How is SMC different from traditional technical analysis?"
+      },
+      {
+        "level": 3,
+        "text": "Is smart money concepts legit?"
+      },
+      {
+        "level": 3,
+        "text": "Is SMC good for beginners?"
+      },
+      {
+        "level": 3,
+        "text": "Does smart money concepts work?"
+      },
+      {
+        "level": 3,
+        "text": "Does SMC work in forex, crypto, stocks, and commodities?"
+      },
+      {
+        "level": 2,
+        "text": "About the author"
+      },
+      {
+        "level": 2,
+        "text": "Continue Learning"
+      },
+      {
+        "level": 2,
+        "text": "How to Spot Trend Reversals Early (Before CHoCH)"
+      },
+      {
+        "level": 2,
+        "text": "How to Trade Liquidity Sweep Reversals (15-Minute Strategy)"
+      },
+      {
+        "level": 2,
+        "text": "Order Blocks Will Fail You Without These 3 Simple Rules"
+      },
+      {
+        "level": 2,
+        "text": "Smart Money Concepts Trading Strategy Explained (Step-By-Step)"
+      },
+      {
+        "level": 2,
+        "text": "Premium and Discount Trading Strategy (How Smart Money Uses OTE)"
+      },
+      {
+        "level": 2,
+        "text": "Fair Value Gap (FVG): The Only Guide You’ll Ever Need"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/uptrend-downtrend-consolidation-799x.png",
+        "alt": "Simple line diagrams showing an uptrend with higher highs and lows, a consolidation range where price moves sideways and builds liquidity, and a downtrend with lower highs and lows."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Break-of-Structure-BoS-1-799x.png",
+        "alt": "EURUSD 1-hour chart showing multiple break of structure (BoS) levels and confirmed trend continuation with 1-hour closes above each swing high."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Change-of-Character-CHoCH-799x.png",
+        "alt": "EURUSD 1-hour chart showing a trend shift from bearish to bullish, with break of structure levels, the external high that triggered the final BOS, and a confirmed bullish CHoCH after a 1-hour close above the key level."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/External-vs-internal-highs-and-lows-799x.png",
+        "alt": "EURUSD 1-hour chart showing the difference between external swing highs and lows and the smaller internal structure inside those major legs, with shaded zones highlighting internal areas."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2026/01/15m-liquidity-sweep-799x.png",
+        "alt": "15m liquidity sweep"
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Fair-Value-Gap-FVG-799x.png",
+        "alt": "EURUSD 1-hour chart showing a bullish fair value gap highlighted after a strong expansion candle, with arrows marking the inefficiency that price often revisits."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Order-block-799x.png",
+        "alt": "EURUSD 1-hour chart showing a bullish order block defined as the last opposing candle before a sharp reversal, followed by a strong bullish displacement candle confirming intent."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Premium-vs.-Discount-799x.png",
+        "alt": "Chart showing premium and discount zones"
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Optimal-Trade-Entry-OTE-799x.png",
+        "alt": "EURUSD 1-hour chart showing discount zone in uptrend with optimal trade entry pinpointing the long entry"
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/01/Short-trade-with-stop-loss-and-targets-799x.png",
+        "alt": "EURUSD chart showing a short trade using market structure and fair value gaps, with a change of character entry, defined risk, multiple targets, and a 4R reward based on a mechanical SMC trading setup."
+      },
+      {
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/10/Justin-1-300x.png",
+        "alt": ""
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Are Smart Money Concepts (SMC)?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why Smart Money Concepts Matter"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Market Structure"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/uptrend-downtrend-consolidation-799x.png",
+        "alt": "Simple line diagrams showing an uptrend with higher highs and lows, a consolidation range where price moves sideways and builds liquidity, and a downtrend with lower highs and lows."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Break of Structure (BOS)"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Break-of-Structure-BoS-1-799x.png",
+        "alt": "EURUSD 1-hour chart showing multiple break of structure (BoS) levels and confirmed trend continuation with 1-hour closes above each swing high."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Change of Character (CHoCH)"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Change-of-Character-CHoCH-799x.png",
+        "alt": "EURUSD 1-hour chart showing a trend shift from bearish to bullish, with break of structure levels, the external high that triggered the final BOS, and a confirmed bullish CHoCH after a 1-hour close above the key level."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Internal vs External Structure"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/External-vs-internal-highs-and-lows-799x.png",
+        "alt": "EURUSD 1-hour chart showing the difference between external swing highs and lows and the smaller internal structure inside those major legs, with shaded zones highlighting internal areas."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Liquidity"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Equal Highs and Equal Lows"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Liquidity Sweeps (Grabs)"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2026/01/15m-liquidity-sweep-799x.png",
+        "alt": "15m liquidity sweep"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Fair Value Gaps (FVGs)"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Fair-Value-Gap-FVG-799x.png",
+        "alt": "EURUSD 1-hour chart showing a bullish fair value gap highlighted after a strong expansion candle, with arrows marking the inefficiency that price often revisits."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Order Blocks"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Order-block-799x.png",
+        "alt": "EURUSD 1-hour chart showing a bullish order block defined as the last opposing candle before a sharp reversal, followed by a strong bullish displacement candle confirming intent."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Breaker Blocks"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Imbalances and Voids"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Price Rebalancing"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Premium and Discount Zones"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Premium-vs.-Discount-799x.png",
+        "alt": "Chart showing premium and discount zones"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Optimal Trade Entry (OTE)"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/12/Optimal-Trade-Entry-OTE-799x.png",
+        "alt": "EURUSD 1-hour chart showing discount zone in uptrend with optimal trade entry pinpointing the long entry"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Supply and Demand Zones"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Displacement"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Propulsion Blocks"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Change in State of Delivery"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Balanced Price Range"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Breakaway Gaps"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SMT Divergences"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SMC Entry Models"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "SMC Trading Strategies"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/01/Short-trade-with-stop-loss-and-targets-799x.png",
+        "alt": "EURUSD chart showing a short trade using market structure and fair value gaps, with a change of character entry, defined risk, multiple targets, and a 4R reward based on a mechanical SMC trading setup."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "London Session Behavior"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "New York Session Behavior"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Power of Three"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stop Placement Using SMC"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Liquidity-Based Take Profits"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Confirmation vs Anticipation Entries"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Backtest SMC"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common SMC Mistakes"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Trying to learn everything at once"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Marking every fair value gap or order block on the chart"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Ignoring higher timeframes"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Trading every BOS or CHoCH like it is a setup"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Entering too early during a liquidity sweep"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Ignoring market sentiment or news events"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Forcing SMC onto sideways markets"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Not having a risk management plan"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Overconfidence after a few wins"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What is smart money concepts?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "How is SMC different from traditional technical analysis?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Is smart money concepts legit?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Is SMC good for beginners?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Does smart money concepts work?"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Does SMC work in forex, crypto, stocks, and commodities?"
+      },
+      {
+        "type": "image",
+        "src": "https://cdn-ikpolol.nitrocdn.com/UdBFJTUJZdydRsdozzBHbeMVNWjpNCpZ/assets/images/optimized/rev-76a2cac/dailypriceaction.com/wp-content/uploads/2025/10/Justin-1-300x.png",
+        "alt": ""
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "About the author"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Continue Learning"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Spot Trend Reversals Early (Before CHoCH)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Trade Liquidity Sweep Reversals (15-Minute Strategy)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Order Blocks Will Fail You Without These 3 Simple Rules"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Smart Money Concepts Trading Strategy Explained (Step-By-Step)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Premium and Discount Trading Strategy (How Smart Money Uses OTE)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Fair Value Gap (FVG): The Only Guide You’ll Ever Need"
+      }
+    ],
+    "pdfs": []
+  }
+}
